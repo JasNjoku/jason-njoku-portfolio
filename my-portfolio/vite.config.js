@@ -7,8 +7,8 @@ export default defineConfig({
     react({
       babel: {
         plugins: [['babel-plugin-react-compiler']],
-        base: "/jason-njoku-portfolio"
       },
+      base: "/jason-njoku-portfolio/"
     }),
   ],
 })
