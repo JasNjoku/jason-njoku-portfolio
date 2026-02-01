@@ -1,0 +1,121 @@
+/*=============== PORTFOLIO ===============*/
+.portfolio__tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: var(--mb-3);
+}
+
+.portfolio__button {
+  font-size: var(--small-font-size);
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.portfolio__active {
+  background-color: var(--title-color);
+  color: var(--container-color);
+}
+
+.portfolio__content {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+/*=============== CARD ===============*/
+.portfolio__card {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2rem 2.5rem;
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.portfolio__card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--mb-0-75);
+}
+
+.portfolio__card-title {
+  font-size: var(--h3-font-size);
+}
+
+.portfolio__card-type {
+  font-size: var(--smaller-font-size);
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.portfolio__card-description {
+  font-size: var(--small-font-size);
+  line-height: 1.6;
+  margin-bottom: var(--mb-1);
+}
+
+.portfolio__card-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: var(--mb-1-5);
+}
+
+.portfolio__card-tech-item {
+  font-size: var(--smaller-font-size);
+  padding: 0.35rem 0.75rem;
+  border-radius: 0.75rem;
+  background-color: hsl(var(--hue), var(--sat), 96%);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.portfolio__card-link {
+  margin-top: auto;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+}
+
+.portfolio__card-link:hover {
+  color: var(--title-color-dark);
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio__content {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio__card {
+    padding: 1.75rem;
+  }
+}
+
+.portfolio__tabs {
+  flex-wrap: wrap;
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  .portfolio__tabs {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+
+  .portfolio__button {
+    width: 100%;
+    text-align: center;
+    font-size: var(--normal-font-size);
+    padding: 0.75rem 1rem;
+  }
+}

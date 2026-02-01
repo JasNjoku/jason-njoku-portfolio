@@ -9,7 +9,7 @@ const Qualification = () => {
     }
 
     return (
-        <section className="qualification section">
+        <section className="qualification section" id="qualification">
             <h2 className="section__title">Qualification</h2>
             <span className='section__subtitle'>My education and experience</span>
 
@@ -42,23 +42,6 @@ const Qualification = () => {
                                 <span className="qualification__line"></span>
                             </div>
                         </div>
-
-                        <div className="qualification__data">
-                            <div></div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 className="qualification__title">Software Engineer Trainee (Springboot)</h3>
-                                <span className="qualification__subtitle">Mthree</span>
-                                <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 09/2025 - 12/2025
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
@@ -83,10 +66,10 @@ const Qualification = () => {
                         <div className="qualification__data">
 
                             <div>
-                                <h3 className="qualification__title">Software Engineer Intern</h3>
-                                <span className="qualification__subtitle">Kaseya</span>
+                                <h3 className="qualification__title">Software Engineer Trainee</h3>
+                                <span className="qualification__subtitle">Mthree</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 01/2024 - 08/2024
+                                    <i className="uil uil-calendar-alt"></i> 09/2025 - 12/2025
                                 </div>
                             </div>
 
@@ -94,22 +77,39 @@ const Qualification = () => {
                                 <span className="qualification__rounder"></span>
                                 <div className="qualification__line"></div>
                             </div>
+
+                            
                         </div>
 
                         <div className="qualification__data">
-                            <div></div>
 
+                            <div></div>
                             <div>
                                 <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
+                                <div className="qualification__line"></div>
                             </div>
+                            
+                            <div>
+                                <h3 className="qualification__title">Software Engineer Intern</h3>
+                                <span className="qualification__subtitle">Kaseya</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i> 01/2024 - 08/2024
+                                </div>
+                            </div>
+                        </div>
 
+                        <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Transcriptionist</h3>
                                 <span className="qualification__subtitle">Rev</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> 11/2021 - 08/2022
                                 </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
                             </div>
                         </div>
                     </div>

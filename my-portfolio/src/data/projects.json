@@ -1,0 +1,64 @@
+{
+    "projects": [
+        {
+            "name": "MatCron",
+            "type": "Fullstack",
+            "description": "A textile-tracking mobile application designed to comply with EU Digital Product Passport regulations, featuring a cross-platform Flutter app with a MySQL backend, NFC tag scanning for product identification, and full backend integration to enable end-to-end product traceability.",
+            "technologies": [
+                "Flutter",
+                "MySQL",
+                "NFC"
+            ],
+            "link": "https://github.com/MatCron"
+        },
+        {
+            "name": "Find That Job",
+            "type": "Fullstack",
+            "description": "A job searching application that aggregates listings from major job sites.",
+            "technologies": [
+                "ReactJS",
+                "Node.js",
+                "JavaScript",
+                "Puppeteer"
+            ],
+            "link": "https://github.com/JasNjoku/find-that-job"
+        },
+
+        {
+            "name": "Personello",
+            "type": "Frontend",
+            "description": "A trello clone for personal use",
+            "technologies": [
+                "ReactJS",
+                "JavaScript"
+            ],
+            "link": "https://jasnjoku.github.io/personello/"
+        },
+
+        {
+            "name": "Http Visual Debugger",
+            "type": "Backend",
+            "description": "A local HTTP(S) interception proxy that captures, and persists live browser traffic in real time.",
+            "technologies": [
+                "Python",
+                "SQLite",
+                "ReactJS",
+                "Mitmproxy"
+            ],
+            "link": "https://github.com/JasNjoku/http-visual-debugger"
+        },
+
+        {
+            "name": "AI Logs Handler",
+            "type": "Backend",
+            "description": "This project is an Ai Powered Spring Boot service that uses Gemini API to help DevOps and Software Engineering teams analyze large volumes of logs. The system identifies root causes, summarizes incidents, detects anomalies, recommends fixes and provides chat-based troubleshooting.",
+            "technologies": [
+                "Java",
+                "Springboot",
+                "MySQL",
+                "Gemini API"
+            ],
+            "link": "https://github.com/PixelWolf75/C430SpringBootOOP"
+        }
+    ]
+}
