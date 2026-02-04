@@ -101,7 +101,7 @@
 }
 
 .portfolio__tabs {
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
 
 /* Mobile */
